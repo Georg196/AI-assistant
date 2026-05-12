@@ -11,10 +11,14 @@
             "id": "cf6681dfca72a1ed",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "type": "markdown",
+              "state": {
+                "file": "wiki/summaries/Ozonbox-исследование.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ozonbox-исследование"
             }
           }
         ]
@@ -193,15 +197,23 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "dcf5cc8eb76bf12f",
+  "active": "cf6681dfca72a1ed",
   "lastOpenFiles": [
-    "Untitled.md",
-    "raw/Claude Code + Obsidian ВЗОРВАЛИ Интернет (Метод Андрея Карпати).md",
-    "log.md",
+    "README.md",
     "index.md",
+    "log.md",
+    "wiki/summaries/Каталог-оборудования-Ozonbox.md",
+    "wiki/entities/Ozonbox.md",
+    "wiki/concepts/Технология-холодной-генерации.md",
+    "wiki/concepts/Озонирование-зернохранилищ.md",
+    "wiki/concepts/Озонирование.md",
+    "Без названия.base",
+    "projects/landing.md",
     "raw/Производство промышленных озонаторов и систем озонования 1.md",
     "raw/Проблема не в том, что вы «недостаточно дезинфицируете»           Проблема в том, что санитарная среда на объекте неуправляема.md",
     "raw/О нас.md",
+    "Untitled.md",
+    "raw/Claude Code + Obsidian ВЗОРВАЛИ Интернет (Метод Андрея Карпати).md",
     "wiki/comparisons",
     "wiki/summaries",
     "wiki/concepts",
@@ -213,12 +225,9 @@
     "company-info.md",
     "Clippings/Каталог оборудования озоновой очистки от производителя.md",
     "Clippings/Производство промышленных озонаторов и систем озонования 1.md",
-    "Без названия.base",
     "context/Без названия.md",
-    "projects/landing.md",
     "Без названия",
     "2026-05-12.md",
-    "README.md",
     "Без названия.canvas",
     "Clippings/Производство промышленных озонаторов и систем озонования.md",
     "Clippings"
