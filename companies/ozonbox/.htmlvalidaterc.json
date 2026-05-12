@@ -1,0 +1,10 @@
+module.exports = {
+  root: true,
+  html: {
+    // Используй свой конфиг в .htmlrc.js
+  },
+  extends: [
+    "plugin:html/recommended",
+  ],
+  plugins: ["html"],
+};

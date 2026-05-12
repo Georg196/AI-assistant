@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "ad7d5c18c50a6da9",
+    "type": "split",
+    "children": [
+      {
+        "id": "d562a5ffdde3bf4a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cf6681dfca72a1ed",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Граф"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "68583914732b0b07",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7756921b7073fd2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dcf5cc8eb76bf12f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "6c80d4b38e54d6b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "context/Без названия.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Без названия"
+            }
+          },
+          {
+            "id": "56115cb122dfc8fd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "0db3c4d53fbe757e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9b54c5324946e5b2",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce4d0eb9f3aa9701",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "53cb8ca6a84ce4b6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Clippings/Производство промышленных озонаторов и систем озонования 1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Производство промышленных озонаторов и систем озонования 1"
+            }
+          },
+          {
+            "id": "b419ed2b267753ce",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Clippings/Производство промышленных озонаторов и систем озонования 1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Производство промышленных озонаторов и систем озонования 1"
+            }
+          },
+          {
+            "id": "c93631128595e44b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "93c3015e3c251061",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          },
+          {
+            "id": "618da91d246e64d1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Clippings/Производство промышленных озонаторов и систем озонования 1.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура Производство промышленных озонаторов и систем озонования 1"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false
+    }
+  },
+  "active": "dcf5cc8eb76bf12f",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "raw/Claude Code + Obsidian ВЗОРВАЛИ Интернет (Метод Андрея Карпати).md",
+    "log.md",
+    "index.md",
+    "raw/Производство промышленных озонаторов и систем озонования 1.md",
+    "raw/Проблема не в том, что вы «недостаточно дезинфицируете»           Проблема в том, что санитарная среда на объекте неуправляема.md",
+    "raw/О нас.md",
+    "wiki/comparisons",
+    "wiki/summaries",
+    "wiki/concepts",
+    "wiki/entities",
+    "wiki",
+    "raw",
+    "Clippings/О нас.md",
+    "Clippings/Проблема не в том, что вы «недостаточно дезинфицируете»           Проблема в том, что санитарная среда на объекте неуправляема.md",
+    "company-info.md",
+    "Clippings/Каталог оборудования озоновой очистки от производителя.md",
+    "Clippings/Производство промышленных озонаторов и систем озонования 1.md",
+    "Без названия.base",
+    "context/Без названия.md",
+    "projects/landing.md",
+    "Без названия",
+    "2026-05-12.md",
+    "README.md",
+    "Без названия.canvas",
+    "Clippings/Производство промышленных озонаторов и систем озонования.md",
+    "Clippings"
+  ]
+}

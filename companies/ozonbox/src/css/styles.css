@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1F32BF;
+  --color-primary-light: #2E4AE0;
+  --color-accent: #00B4D8;
+  --color-accent-dark: #0284C7;
+  --color-accent-green: #10B981;
+  --color-accent-orange: #F59E0B;
+  --color-accent-red: #EF4444;
+  --color-dark: #0D1117;
+  --color-dark-2: #1A1A2E;
+  --color-gray-dark: #374151;
+  --color-gray: #6B7280;
+  --color-gray-light: #9CA3AF;
+  --color-white: #FFFFFF;
+  --color-white-2: #F9FAFB;
+  --color-white-3: #F3F4F6;
+  --color-border: #E5E7EB;
+  --color-border-2: #D1D5DB;
+  
+  --font-family-main: 'IBM Plex Sans', -apple-system, sans-serif;
+  
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+  --spacing-20: 5rem;
+  
+  --shadow-card: 0 4px 16px rgba(0, 0, 0, 0.04);
+  --shadow-card-hover: 0 12px 32px rgba(31, 50, 191, 0.12);
+  --shadow-elevated: 0 20px 40px rgba(31, 50, 191, 0.15);
+}
+
+body {
+  font-family: var(--font-family-main);
+  color: var(--color-gray-dark);
+  background: var(--color-white);
+}
+
+.container {
+  max-width: 1160px;
+}

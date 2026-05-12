@@ -1,0 +1,33 @@
+{
+  "name": "ozonbox-agroholding",
+  "version": "1.0.0",
+  "description": "Санитарная система для тепличных комплексов",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/css/styles.css -o ./dist/styles.css --watch",
+    "build": "npx tailwindcss -i ./src/css/styles.css -o ./dist/styles.css --minify",
+    "lint:css": "npx stylelint \"**/*.css\"",
+    "lint:js": "npx eslint src/js/**/*.js",
+    "format": "npx prettier --write \"**/*.{html,css,js,json}\"",
+    "validate": "npx html-validate index.html"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-sans": "^5.1.1",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "gsap": "^3.12.7",
+    "lenis": "^1.1.14"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.6",
+    "eslint": "^9.18.0",
+    "html-validate": "^8.24.0",
+    "postcss": "^8.4.49",
+    "prettier": "^3.4.2",
+    "stylelint": "^16.11.0",
+    "stylelint-config-standard": "^36.0.1",
+    "tailwindcss": "^4.0.0"
+  }
+}
