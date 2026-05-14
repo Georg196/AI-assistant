@@ -6,12 +6,12 @@
 
 | Файл | Назначение |
 |------|------------|
+| [memory.md](memory.md) | **ПАМЯТЬ** — приоритетный файл с контекстом общения |
 | [AGENTS_MAIN.md](AGENTS_MAIN.md) | Главная навигация по проекту |
 | [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md) | Структура проекта с описанием секций |
 | [AGENTS_PYTHON.md](AGENTS_PYTHON.md) | Python правила (aiogram, FastAPI, etc.) |
 | [AGENTS_DESIGN.md](AGENTS_DESIGN.md) | UI/UX правила и дизайн система |
 | [AGENTS_WEB.md](AGENTS_WEB.md) | Web правила (HTML/CSS/JS, Tailwind) |
-| [memory.md](memory.md) | Память нашего общения |
 | [CHANGELOG.md](CHANGELOG.md) | История изменений проекта |
 
 ## Быстрый старт

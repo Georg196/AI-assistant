@@ -1,5 +1,7 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "username": "Ozonbox Assistant",
+  "instructions": ["Instructions/AGENTS.md"],
   "mcp": {
     "context7": {
       "type": "remote",
@@ -7,6 +9,63 @@
       "headers": {
         "CONTEXT7_API_KEY": "{env:ctx7sk-eb6a1824-26be-46c4-8430-e14044caf09b}"
       }
+    },
+    "filesystem": {
+      "type": "local",
+      "command": ["npx", "-y", "@modelcontextprotocol/server-filesystem", "E:\\Рабочий стол\\ozonbox\\ИИ асистент Ozonbox\\companies", "E:\\Рабочий стол\\ozonbox\\ИИ асистент Ozonbox\\openshorts"],
+      "enabled": true
+    },
+    "everything": {
+      "type": "local",
+      "command": ["npx", "-y", "@modelcontextprotocol/server-everything"],
+      "enabled": true
+    },
+    "sequential-thinking": {
+      "type": "local",
+      "command": ["npx", "-y", "@modelcontextprotocol/server-sequential-thinking"],
+      "enabled": true
+    },
+    "webresearch": {
+      "type": "local",
+      "command": ["npx", "-y", "@mzxrai/mcp-webresearch@latest"],
+      "enabled": true
+    },
+    "npm-helper": {
+      "type": "local",
+      "command": ["npx", "-y", "@pinkpixel/npm-helper-mcp"],
+      "enabled": true
+    },
+    "npm-sentinel": {
+      "type": "local",
+      "command": ["npx", "-y", "@nekzus/mcp-server@latest"],
+      "enabled": true
+    },
+    "playwright": {
+      "type": "local",
+      "command": ["npx", "-y", "@automatalabs/mcp-server-playwright"],
+      "enabled": true
     }
-  }
+  },
+  "agent": {
+    "web-dev": {
+      "description": "Веб-разработка: HTML, CSS, Tailwind, лендинги",
+      "mode": "subagent"
+    },
+    "python-dev": {
+      "description": "Python: FastAPI, боты, видеообработка, OpenShorts",
+      "mode": "subagent"
+    },
+    "researcher": {
+      "description": "Исследование: анализ рынка, конкуренты, маркетинг",
+      "mode": "subagent"
+    },
+    "designer": {
+      "description": "Дизайн: UI/UX, стилизация, компоненты",
+      "mode": "subagent"
+    }
+  },
+  "skills": {
+    "paths": [".opencode/skill"]
+  },
+  "plugin": ["superpowers@git+https://github.com/obra/superpowers.git"]
 }
